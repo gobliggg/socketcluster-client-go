@@ -50,6 +50,19 @@
   revision = "1436bb906a4e8e77e1ac1c2b4934444f77900c7f"
 
 [[projects]]
+  digest = "1:2199f9649e9fab01c8b6b79e997b7f60f10a7c741306ba939ca5271f17a7fc04"
+  name = "github.com/sacOO7/socketcluster-client-go"
+  packages = [
+    "scclient",
+    "scclient/models",
+    "scclient/parser",
+    "scclient/utils",
+  ]
+  pruneopts = "UT"
+  revision = "734d20240c0d94e14d1e161060ef3e919c8e259e"
+  version = "v1.0.0"
+
+[[projects]]
   digest = "1:5e8f46b412421d2d6cceea845d28ac46f3f5a5f60a6e86f0ee75e24fd43a02a9"
   name = "github.com/stretchr/testify"
   packages = ["assert"]
@@ -80,6 +93,10 @@
     "github.com/rgamba/evtwebsocket",
     "github.com/sacOO7/go-logger",
     "github.com/sacOO7/gowebsocket",
+    "github.com/sacOO7/socketcluster-client-go/scclient",
+    "github.com/sacOO7/socketcluster-client-go/scclient/models",
+    "github.com/sacOO7/socketcluster-client-go/scclient/parser",
+    "github.com/sacOO7/socketcluster-client-go/scclient/utils",
     "github.com/stretchr/testify/assert",
     "golang.org/x/net/websocket",
   ]
